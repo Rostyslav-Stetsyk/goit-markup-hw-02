@@ -1,0 +1,37 @@
+body {
+    color: #434455;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    text-decoration: none;
+    color: #4D5AE5;
+}
+
+.part-logo-header {
+    color: #2E2F42;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+/* Colors:
+#4D5AE5 - Primary brand
+#404BBF - Pressed state
+#2E2F42 - Dark (Overlays Shadows Headings)
+#31D0AA - Success 
+     graduation: opacity: 0.75; 
+     opacity: 0.5; 
+     rgba(49, 208, 170, 0.1) - 10%;  
+#434455 - Body text
+#8E8F99 - Subtle Text
+#E7E9FC - Accent
+#F4F4FD - Light mode
+#2E2F42 - Modal overlay
+#2E2F42 - Hero background
+ */
