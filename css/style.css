@@ -35,13 +35,21 @@ body {
     list-style: none;
 }
 
+.link {
+    text-decoration: none;
+}
+
+.btn {
+    cursor: pointer;
+}
+
 /* Header */
 
 .header {
     background-color: var(--white-color);
 }
 
-.logo {
+.link.logo {
     color: var(--primary-brand-color);
 }
 
@@ -49,12 +57,12 @@ body {
     color: var(--dark-color);
 }
 
-.nav-link {
+.nav.link {
     color: var(--dark-color);
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav.link:hover,
+.nav.link:focus {
     color: var(--pressed-state-color);
 }
 
@@ -62,15 +70,30 @@ body {
     color: var(--body-text-color)
 }
 
-.contact:hover,
-.contact:focus {
+.contact.link:hover,
+.contact.link:focus {
     color: var(--pressed-state-color);
 }
 
-.current {
+.link.current {
     color: var(--pressed-state-color);
 }
 
+/* Footer */
+
+.footer {
+    background-color: var(--dark-color);
+}
+
+.part-logo-footer {
+    color: var(--light-mode-color);
+}
+
+.footer .text {
+    color: var(--accent-color);
+}
+
+/* Main page style (index.html) */
 /* Hero */
 
 .hero {
@@ -78,11 +101,11 @@ body {
 }
 
 .hero .section-title,
-.hero .button {
+.hero .btn {
     color: var(--white-color);
 }
 
-.hero .button {
+.hero .btn {
     background-color: var(--primary-brand-color);
 }
 
@@ -108,24 +131,34 @@ body {
     color: var(--dark-color);
 }
 
-.cards .card-title {
+.team-cards .card-title {
     color: var(--dark-color);
 }
 
-.cards .card {
+.team-cards .card {
     background-color: var(--white-color);
 }
 
-/* Footer */
+/* Portfolio page style */
+/* Buttons */
 
-.footer {
-    background-color: var(--dark-color);
+.filter-btns .btn {
+    color: var(--primary-brand-color);
+    background-color: var(--light-mode-color);
 }
 
-.part-logo-footer {
-    color: var(--light-mode-color);
+.filter-btns .btn:hover,
+.filter-btns .btn:focus {
+    color: var(--white-color);
+    background-color: var(--pressed-state-color);
 }
 
-.footer .text {
-    color: var(--accent-color);
+/* Cards */
+
+.card .card-title {
+    color: var(--dark-color);
+}
+
+.card .desc {
+    color: var(--body-text-color);
 }
