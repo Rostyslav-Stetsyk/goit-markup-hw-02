@@ -29,6 +29,15 @@ rgba(46, 47, 66, 0.7) - Hero background
 body {
     color: var(--body-text-color);
     background-color: var(--white-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .list {
@@ -39,8 +48,49 @@ body {
     text-decoration: none;
 }
 
+.link.logo {
+    color: var(--primary-brand-color);
+
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
 .btn {
     cursor: pointer;
+    font-family: inherit;
+
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    letter-spacing: 0.04em;
+}
+
+.section-title {
+    color: var(--dark-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.card-title,
+.list-title {
+    color: var(--dark-color);
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.card .desc {
+    color: var(--body-text-color);
 }
 
 /* Header */
@@ -49,16 +99,16 @@ body {
     background-color: var(--white-color);
 }
 
-.link.logo {
-    color: var(--primary-brand-color);
-}
-
 .part-logo-header {
     color: var(--dark-color);
 }
 
 .nav.link {
     color: var(--dark-color);
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .nav.link:hover,
@@ -67,7 +117,12 @@ body {
 }
 
 .contact {
-    color: var(--body-text-color)
+    color: var(--body-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .contact.link:hover,
@@ -100,25 +155,25 @@ body {
     background-color: var(--dark-color);
 }
 
-.hero .section-title,
-.hero .btn {
+.hero .section-title {
     color: var(--white-color);
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .hero .btn {
+    color: var(--white-color);
     background-color: var(--primary-brand-color);
 }
 
-/* Section1: Featuress */
+/* Titles: "Section1: Featuress" and "Section2: Example" and "Section3: Team"  */
 
 .featuress .section-title {
-    color: var(--dark-color);
-}
-
-/* Section2: Example */
-
-.example .section-title {
-    color: var(--dark-color);
+    display: none;
 }
 
 /* Section3: Team */
@@ -127,12 +182,9 @@ body {
     background-color: var(--light-mode-color);
 }
 
-.team .section-title {
-    color: var(--dark-color);
-}
-
-.team-cards .card-title {
-    color: var(--dark-color);
+.team-cards .card-title,
+.team-cards .desc {
+    text-align: center;
 }
 
 .team-cards .card {
@@ -140,25 +192,22 @@ body {
 }
 
 /* Portfolio page style */
+
+.portfolio .section-title {
+    display: none;
+}
+
 /* Buttons */
 
 .filter-btns .btn {
     color: var(--primary-brand-color);
     background-color: var(--light-mode-color);
+
+
 }
 
 .filter-btns .btn:hover,
 .filter-btns .btn:focus {
     color: var(--white-color);
     background-color: var(--pressed-state-color);
-}
-
-/* Cards */
-
-.card .card-title {
-    color: var(--dark-color);
-}
-
-.card .desc {
-    color: var(--body-text-color);
 }
