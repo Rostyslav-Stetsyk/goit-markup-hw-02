@@ -72,7 +72,6 @@ body {
 .section-title {
     color: var(--dark-color);
 
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -158,7 +157,6 @@ body {
 .hero .section-title {
     color: var(--white-color);
 
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -202,8 +200,6 @@ body {
 .filter-btns .btn {
     color: var(--primary-brand-color);
     background-color: var(--light-mode-color);
-
-
 }
 
 .filter-btns .btn:hover,
