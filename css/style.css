@@ -168,6 +168,12 @@ body {
     background-color: var(--primary-brand-color);
 }
 
+.hero .btn:hover,
+.hero .btn:focus {
+    color: var(--white-color);
+    background-color: var(--pressed-state-color);
+}
+
 /* Titles: "Section1: Featuress" and "Section2: Example" and "Section3: Team"  */
 
 .featuress .section-title {
